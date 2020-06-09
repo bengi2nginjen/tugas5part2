@@ -1,0 +1,12 @@
+Selamat datang
+Jono Saldo 100000
+
+Terdekat
+Rekomendasi
+  -> Resto
+    -> Makanan minuman
+      -> Pilih makanan
+        -> Deskripsi kembali or add ke keranjang banya
+Seluruh resto
+  -> Berdasarkan nama
+  -> Jarak

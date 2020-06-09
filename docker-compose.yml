@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+    web:
+        build: web
+
+    php:
+        build: php
+        ports:
+         - "80:80"
+        volumes:
+         - ./web:/var/www/html/
+        networks:
+         - default
+
+    mysql:
+        build: mysql
+        container_name: mysql_for_web
+        ports:
+         - "3306:3306"
+        
