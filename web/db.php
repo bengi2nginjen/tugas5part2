@@ -1,5 +1,5 @@
 <?php
-$servername = "dbtugas5.cenzylrufou4.us-east-1.rds.amazonaws.com";
+$servername = "mysql_for_web";
 $username = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
 $database = getenv('MYSQL_DATABASE');
